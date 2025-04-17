@@ -1,0 +1,194 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    color: #737373;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+
+}
+
+.kovrik h1 {
+    width: 596px;
+    height: 119px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.kovrik button {
+    background-image: url(./Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 179px;
+    height: 53px;
+    border: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+span {
+    color: purple;
+
+}
+
+.h1 {
+    font-size: 30px;
+    width: 703px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 344px;
+    height: 414px;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+    border-radius: 20px;
+}
+
+.card h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 289;
+    height: 49;
+
+
+
+}
+
+.card p {
+    width: 289;
+    height: 106;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    width: 95%;
+}
+
+.mask {
+    width: 436px;
+    height: 187px;
+
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masks {
+    background-image: url(./Rectangle\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 357px;
+    align-items: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+
+}
+
+.mask img {
+    width: 93px;
+    height: 106px;
+    position: relative;
+    left: 170px;
+    bottom: 100px;
+}
+
+.mask p {
+    width: 354px;
+    height: 60px;
+
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+
+@media(max-width:650px) {
+    a {
+        display: none;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    section {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .masks {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .mask {
+        margin-top: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:400px) {
+    .box img {
+        display: none;
+    }
+
+    .box button {
+        align-items: center;
+
+    }
+}

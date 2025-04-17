@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxxx {
+    background-image: url(./Rectangle\ 18.png);
+    background-size: 100px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section {
+    background: #fff;
+    width: 90%;
+    height: 392px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+input {
+    width: 362px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 749px;
+    height: 81px;
+    border-radius: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.but {
+    width: 169px;
+    height: 42px;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+    border-radius: 15px;
+    color: white;
+
+    margin: 0 auto;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 40%
+}
+@media(max-width:650px){
+    textarea{
+        width: 362px;
+        height: 50px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .button{
+        margin-top: 10px;
+        
+    }
+}
